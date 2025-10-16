@@ -1,14 +1,26 @@
+# Core
 fastapi
 uvicorn[standard]
 python-multipart
+
+# Whisper + ML
 faster-whisper
 ctranslate2
 pydub
+
+# Google APIs
 google-generativeai
 langchain-google-genai
+
+# Environment
 python-dotenv
-spacy
-scispacy
+
+# Data handling
 pandas
-sendgrid
 openpyxl
+sendgrid
+
+# NLP - pinned to compatible versions
+spacy==3.6.1
+blis==0.7.9
+scispacy==0.5.1
