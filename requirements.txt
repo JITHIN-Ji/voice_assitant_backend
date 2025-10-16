@@ -1,26 +1,26 @@
 # Core
-fastapi
-uvicorn[standard]
-python-multipart
+fastapi==0.115.3
+uvicorn[standard]==0.30.5
+python-multipart==0.0.9
 
 # Whisper + ML
-faster-whisper
-ctranslate2
-pydub
+faster-whisper==1.0.3
+ctranslate2==4.4.0
+pydub==0.25.1
 
 # Google APIs
-google-generativeai
-langchain-google-genai
+google-generativeai==0.8.3
+langchain-google-genai==2.0.0
 
 # Environment
-python-dotenv
+python-dotenv==1.0.1
 
 # Data handling
-pandas
-openpyxl
-sendgrid
+pandas==2.2.2
+openpyxl==3.1.5
+sendgrid==6.11.0
 
-# NLP - pinned to compatible versions
-spacy==3.6.1
-blis==0.7.9
-scispacy==0.5.1
+# NLP (use wheels; avoid building from source)
+spacy==3.7.2
+blis==0.7.11
+scispacy==0.5.4
