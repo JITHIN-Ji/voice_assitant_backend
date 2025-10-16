@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-multipart
+faster-whisper
+ctranslate2
+pydub
+google-generativeai
+langchain-google-genai
+python-dotenv
+spacy
+scispacy
+pandas
+sendgrid
+openpyxl
